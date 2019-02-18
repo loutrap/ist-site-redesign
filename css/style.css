@@ -1,0 +1,517 @@
+/* Overall CSS for page */
+body, html {
+	height: 100%;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Navbar CSS */
+#main-header {
+	color: #f36e21;
+	padding-left: 10px;
+	flex: 2;
+	margin: auto;
+	background-color: black;
+}
+
+#navbar {
+	width: 100vw;
+	background-color: rgba(255,255,255,0.5);
+	display: flex;
+	padding: 0;
+	margin: 0;
+	position: fixed;
+	z-index: 1;
+	opacity: .9;
+	border-bottom: 3px solid black;
+}
+
+#menu-list {
+	flex: 6;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+#navbar ul li {
+	display: flex;
+	margin: 0 2%;
+	justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+#navbar a {
+	font-size: 12pt;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	margin: auto;
+	border-radius: 10px;
+	padding: 0px;
+	list-style: none;
+}
+
+#navbar a:hover {
+	background-color: rgba(0,0,0,.2);
+}
+
+#rit-logo {
+	width: 80px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+/* DROPOTRON PLUGIN CSS */
+.dropotron { 
+	background-color: rgba(0,0,0,0.7); 
+	border-radius: 0.5em; 
+	list-style: none; 
+	margin: 0; 
+	min-width: 10em; 
+	font-size: .9em;
+	padding: 0.75em 1em 0.75em 1em; 
+}
+.dropotron > li { 
+	border-top: solid 1px #555; 
+	margin: 0; 
+	padding: 0; 
+}
+.dropotron > li:first-child { 
+	border-top: 0; 
+}
+.dropotron > li > a { 
+	color: #ccc; 
+	display: block; 
+	padding: 0.5em 0 0.5em 0; 
+	text-decoration: none; 
+}
+.dropotron > li.active > a, .dropotron > li:hover > a { 
+	color: #fff; 
+}
+.dropotron.level-0 { 
+	margin-top: 0em; 
+}
+.dropotron.level-0:before { 
+	content: ''; 
+	position: absolute; 
+	border-bottom: solid 0.5em #000; 
+	border-left: solid 0.5em transparent; 
+	border-right: solid 0.5em transparent; 
+	top: -0.5em; 
+}
+
+h1 {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* CSS for Description Section */
+
+#description{
+	height: 100%;
+	width: 100vw;
+	min-width: 1170px;
+	position: relative;
+	background-image: url("../img/background-5.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: cover;	
+	background-color: #f36e21;
+}
+
+#description-container {
+	width: 65%;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(0,0,0,.7);
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;;
+}
+
+#description-container p {
+	width: 100%;
+}
+
+hr {
+	width: 80%;
+	color: blue;
+}
+
+#quote {
+	color: #f36e21;
+	font-style: italic;
+}
+
+#quote-author {
+	font-size: .8em;
+	color: #f36e21;
+	font-style: italic;
+}
+
+
+/* CSS for Undergrad Section */
+#undergrad {
+	position: relative;
+	background-color: #337ab7;
+}
+
+#undergrad-container {
+	position: absolute;
+	width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#undergrad-container ul {
+	list-style: none;
+	padding: 0;
+}
+
+#undergrad-container p {
+	width: 70%;
+  margin: 0 auto;
+}
+
+/* CSS for Grad Section */
+#grad {
+	position: relative;
+	background-color: #DCDCDC;
+}
+
+#grad-container {
+	position: absolute;
+	width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#grad-container ul {
+	list-style: none;
+	padding: 0;
+}
+
+#grad-container p {
+	width: 70%;
+  margin: 0 auto;
+}
+
+/* CSS for Minors Section */
+#minors {
+	position: relative;		
+	background-color: rgba(78,185,196,1);
+	text-align: center;
+}
+
+#minors-container {
+	height: 80vh;
+	margin-top: 50px;
+}
+
+#minors-container .box-long {
+	display: block;
+	width: 80%;
+	border: 2px solid black;
+	margin: 15px auto;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+#minors-container .box-long:visited {
+	color: black;
+}
+
+#minors-container .box-long:hover {
+	background-color: rgba(243,110,33,.7);
+}
+
+
+/* CSS for Employment Section */
+#employment-stats {
+	position: relative;		
+	background-color: lightblue;	
+
+}
+
+#map-section {
+	position: relative;		
+	background-color: white;	
+}
+
+#map-section-container {
+	display: block;
+	width: 1000px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: -50px;
+	text-align: center;	
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+#employment-stats-container {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 80px;
+	text-align: center;
+}
+
+#emp-table-section {
+	position: relative;		
+	background-color: white;	
+}
+
+#emp-table-section-container{
+	display: flex;
+	width: 90%;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px auto;
+}
+
+#emp-table:hover {
+	background-color: rgba(243,110,33,.7);
+}
+
+.long-table {
+	border: 2px solid #f36e21;
+	width: 40%;
+	text-align: center;
+	margin: 0 10px;
+	color: black;
+	text-decoration: none;
+}
+
+.long-table:visited {
+	color: black;
+}
+
+
+/* CSS for People Section */
+#people {
+	position: relative;		
+	background-color: #337ab7;
+}
+
+#people-container {
+	position: absolute;
+	width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* CSS for Research Section */
+#research {
+	position: relative;		
+	background-color: dimgray;
+	color: white;
+}
+
+#research-container {
+	position: absolute;
+	width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* CSS for Resources Section */
+#resources {
+	position: relative;		
+	background-color: white;
+}
+
+#resources-container {
+	position: absolute;
+	width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#resource-topic-container {
+	display: flex;
+	width: 90%;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px auto;
+}
+
+#resource-topic-container a {
+	color: black;
+	text-decoration: none;
+}
+
+#resource-topic-container a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.resource-box {
+	display: block;
+	width: 40%;
+	margin: 20px;
+	border: 2px solid #f36e21;
+}
+.resource-box:hover {
+	background-color: #f36e21;
+}
+
+/* MAGNIFIC POPUP MODAL PLUGIN CSS */
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+
+
+/* Styling for boxes and divs */
+.content-wrapper {
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+	background-color: snow;
+	border: 2px solid #f36e21;
+	padding: 20px;
+}
+
+.row-box {
+	display: flex;
+	justify-content: center;
+}
+
+.single-box {
+	border: 2px solid #f36e21;
+	margin: 0 5px;
+	width: 20%;
+	background-color: snow;
+}
+
+.single-box-lg {
+	border: 2px solid #f36e21;
+	margin: 0 5px;
+	width: 40%;
+	background-color: snow;
+	padding: 0;
+}
+
+.single-box-lg h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.hor-list {
+	display: inline;
+	text-decoration: none;
+	font-size: .9em;
+	margin: 0 2px;
+}
+
+.orange-font {
+	color: #f36e21;
+}
+
+#emp-coop-row {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+#emp-coop-row ul {
+	width: 95%;
+	margin: 0 auto;
+}
+
+#faculty-container {
+	display: flex;
+	width: 90%;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px auto;
+}
+
+.people-box {
+	display: block;
+	width: 12%;
+	border: 2px solid #f36e21;
+	margin: 10px; 
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	-webkit-transition: padding .5s; /* Safari */
+  transition: padding .5s;
+}
+
+.people-box:visited {
+	color: black;
+}
+
+.people-box:hover {
+	background-color: rgba(243,110,33,.7);
+}
+
+#research-topic-container {
+	display: flex;
+	width: 90%;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px auto;
+}
+
+.topic-box {
+	height: 30vh;
+	width: 12%;
+	border: 2px solid #f36e21;
+	margin: 10px; 
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.research-box {
+	display: block;
+	width: 12%;
+	border: 2px solid #f36e21;
+	margin: 10px; 
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	-webkit-transition: padding .5s; /* Safari */
+  transition: padding .5s;
+}
+
+.research-box:visited {
+	color: white;
+}
+
+.research-box:hover {
+	background-color: rgba(243,110,33,.7);
+}
+
+

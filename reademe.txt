@@ -1,0 +1,18 @@
+Louis Trapani
+READEME.txt
+Project 2
+Client Programming
+https://people.rit.edu/lxt2528/CLIENT/proj2/index.html
+
+I have created this site as a redesign of the current IST website. I tried to implement a design that is highly cohesive and easy to change if need be. 
+
+The 3 plugins I used for this project are:
+
+1) FullPage.js:
+The fullpage plugin displays each section as a full page and offers a smooth scroll to the 	entire next section. You cannot scroll partially between pages. It also offer functionality to have 	side scrolling slides in the instance that one “full page” is not enough to display all of you data
+
+2) Dropotron.js
+The Dropotron plugin allows me to have submenus in my nav bar so that i can group links 	together that are closely related instead of having an extra long nav bar with tons of options 	displayed.
+
+3) iziModal.js
+The iziModal plugin creates a modal which i can write text to every time a onClick event is fired.
